@@ -521,6 +521,20 @@ h6 {
   padding: 80px 0;
 }
 
+#about a {
+  padding: 0;
+  margin: 0 0 30px 0;
+  color: #074259;
+}
+
+#about a:hover,
+#about a:active,
+#about a:focus {
+  color: #A65D03;
+  outline: none;
+  text-decoration: none;
+}
+
 #about .about-content {
   padding-top: 40px;
 }
@@ -559,6 +573,12 @@ h6 {
   font-size: 20px;
   padding-right: 4px;
   color: #032940;
+}
+
+#about .about-content .about-list-outcome {
+  margin-bottom: 0;
+  text-align:justify;
+  text-justify:inter-ideograph;
 }
 
 #about .about-img {
@@ -601,6 +621,7 @@ h6 {
   background-color: #E7ECEF;
   transition: .5s;
 }
+
 
 /* Services Section
 --------------------------------*/
@@ -808,6 +829,16 @@ h6 {
 
 #portfolio {
   padding: 60px 0;
+}
+
+#portfolio .portfolio-container {
+  alignment: center;
+}
+
+#portfolio .about-content .about-list-outcome {
+  margin-bottom: 0;
+  text-align:justify;
+  text-justify:inter-ideograph;
 }
 
 #portfolio #portfolio-flters {
