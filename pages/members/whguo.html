@@ -41,25 +41,6 @@ Header
 ============================-->
 <header id="header-fixed">
 
-    <div class="container">
-
-        <div class="logo float-left">
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!--        <h1 class="text-light"><a href="#intro" class="scrollto"><span>Rapid</span></a></h1>-->
-            <a class="scrollto"><img src="../../img/logo-lg.png" alt="" class="img-fluid"></a>
-        </div>
-
-        <nav class="main-nav float-right d-none d-lg-block">
-            <ul>
-                <li><a href="../../index.html#intro">首页</a></li>
-                <li><a href="../../index.html#course">课程</a></li>
-                <!--                <li><a href="../../pages/work/all.html">团队工作</a></li>-->
-                <li><a href="all.html">我们是谁</a></li>
-                <li><a href="../../index.html#footer">联系我们</a></li>
-            </ul>
-        </nav><!-- .main-nav -->
-
-    </div>
 </header><!-- #header -->
 
 <main id="main">
@@ -290,57 +271,7 @@ Header
   Footer
 ============================-->
 <footer id="footer" class="section-bg">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="footer-info">
-                        <h3>CV-XUEBA</h3>
-                    </div>
-                    <div class="footer-links">
-                        <h4>Contact Us</h4>
-                        <p>
-                            <strong>Email:</strong> info@example.com<br>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="footer-links">
-                        <h4>在这里找到我们</h4>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <a href="https://space.bilibili.com/592250247"><img src="../../img/logos/bilibili.png" alt="bilibili"></a>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="https://github.com/CV-xueba"><img src="../../img/logos/github.png" alt="github"></a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href=""><img src="../../img/logos/qrcode.png" alt="qrcode"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="copyright">
-            &copy;Copyright <strong>CV-XUEBA</strong>&emsp;京ICP备2020042438号&emsp;<img src="../../img/logos/beian.png"> <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010602007499">京公网安备 11010602007499号</a>
-        </div>
-        <div class="credits">
-            <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
-            -->
-            Theme designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-    </div>
 </footer><!-- #footer -->
 
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
@@ -364,6 +295,9 @@ Header
 
 <!-- Template Main Javascript File -->
 <script src="../../js/main.js"></script>
-
+<script type="text/javascript">
+    $('#footer').load('../../components/footer.html')
+    $('#header-fixed').load('../../components/header_fixed.html')
+</script>
 </body>
 </html>

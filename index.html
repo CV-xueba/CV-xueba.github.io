@@ -38,45 +38,16 @@
 
 <body>
 <!--==========================
-Header
+Header Inject from components/header.html
 ============================-->
 <header id="header">
 
-    <div id="topbar">
-        <div class="container">
-            <div class="social-links">
-                <a href="#" class="github"><i class="fa fa-github"></i></a>
-                <a href="#" class="bilibili"><i class="fa fa-youtube-play"></i></a>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-
-        <div class="logo float-left">
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!--        <h1 class="text-light"><a href="#intro" class="scrollto"><span>Rapid</span></a></h1>-->
-            <a href="#header" class="scrollto"><img src="img/logo-lg.png" alt="" class="img-fluid"></a>
-        </div>
-
-        <nav class="main-nav float-right d-none d-lg-block">
-            <ul>
-                <li class="active"><a href="index.html#intro">首页</a></li>
-                <!--          <li><a href="index.html#about">我们是谁</a></li>-->
-                <li><a href="index.html#course">全部课程</a></li>
-                <!--          <li><a href="pages/work/all.html">团队工作</a></li>-->
-                <li><a href="pages/members/all.html">我们是谁</a></li>
-                <li><a href="index.html#footer">联系我们</a></li>
-            </ul>
-        </nav><!-- .main-nav -->
-
-    </div>
 </header><!-- #header -->
 
 <!--==========================
   Intro Section
 ============================-->
-<section id="intro" class="clearfix" style="background:url('img/bg-1.png') center top no-repeat;background-size: cover">
+<section id="intro" class="clearfix" style="background:url('https://cdn.jsdelivr.net/gh/CV-xueba/cv-xueba-cdn@master/img/bg-1.png') center top no-repeat;background-size: cover">
     <div class="container d-flex h-100 justify-content-center justify-content-md-start">
         <div class="row justify-content-center align-self-center">
             <div class="intro-info order-md-first order-last align-self-center">
@@ -115,7 +86,7 @@ Header
                         </h4>
                         <h4 class="title"><a href="pages/courses/cv_basic.html">->课程资源<-</a></h4>
                         <p class="description">
-                            该课程是北京邮电大学计算机学院智能科学与技术系的一门本科生课程，课程围绕计算机视觉的基本任务展开，着重介绍计算机视觉任务的一些常规处理思路与经典处理方法</p>
+                            该课程是北京邮电大学计算机学院智能科学与技术系的一门本科生课程，课程围绕计算机视觉的基本任务展开，着重介绍计算机视觉任务的一些常规处理思路与经典处理方法<br><br></p>
                     </div>
                     <div class="video-wrapper embed-responsive embed-responsive-4by3">
                         <iframe class="embed-responsive-item"
@@ -134,7 +105,8 @@ Header
                         </h4>
                         <h4 class="title"><a href="pages/courses/cv_dl.html">->课程资源<-</a></h4>
                         <p class="description">
-                            该课程是北京邮电大学的一门研究生公选课程, 课程着重介绍卷积神经网络技术及其在视觉识别与图像生成领域的应用<br><br></p>
+                            该课程是北京邮电大学的一门研究生公选课程, 课程着重介绍卷积神经网络技术及其在视觉识别与图像生成领域的应用<br>
+                            <strong>本课程所涉及的教学内容与课件参考了CS231N，感谢CS231N课程团队在课程建设方面所做的工作！</strong></p>
                     </div>
                     <div class="video-wrapper embed-responsive embed-responsive-4by3">
                         <iframe class="embed-responsive-item"
@@ -154,7 +126,7 @@ Header
                         </h4>
                         <h4 class="title"><a href="pages/courses/cv_3d.html">->课程资源<-</a></h4>
                         <p class="description">
-                            该课程是北京邮电大学计算机学院智能科学与技术系的一门本科生课程, 课程着重介绍基于视觉的三维重建技术。<br><br></p>
+                            该课程是北京邮电大学计算机学院智能科学与技术系的一门本科生课程, 课程着重介绍基于视觉的三维重建技术。<br><br><br></p>
                     </div>
                     <div class="video-wrapper embed-responsive embed-responsive-4by3">
                         <iframe class="embed-responsive-item"
@@ -167,16 +139,22 @@ Header
                 <div class="col-md-6 col-lg-6 wow bounceInUp" data-wow-duration="1.4s">
 
                     <div class="box">
-                        <h4 class="title">↓ 这里没有课程，只有一只可爱的猫猫 ↓</h4>
-                        <h4 class="title">ฅ( ̳• ◡ • ̳)ฅ miaow~ </h4>
-                        <h4 class="title">miaow~ ฅ( ̳• ◡ • ̳)ฅ</h4>
+                        <h4 class="title">↓ A04.视觉重建之SfM与SLAM系统核心算法 ↓</h4>
+                        <h4 class="title"><a href="https://space.bilibili.com/592250247/channel/detail?cid=203781">->在Bilibili观看完整视频<-</a></h4>
+                        <h4 class="title"><a href="pages/courses/cv_sfm.html">->课程资源<-</a></h4>
                         <p class="description">
-                            我是北邮科研楼下的猫猫“珊瑚”~<br><br><br>
+                            三维重建精简版的超级扩张完全版！！摄像机成像和立体视觉基本原理，SfM算法和SLAM算法的硬核讲解！一起学习吧！<br>
+                            <strong>本课程所涉及的教学内容与课件参考了CS231A，感谢CS231A课程团队在课程建设方面所做的工作！</strong>
                         </p>
 
                     </div>
+<!--                    <div class="video-wrapper embed-responsive embed-responsive-4by3">-->
+<!--                        <img src="img/cat.jpg" class="embed-responsive-item">-->
+<!--                    </div>-->
                     <div class="video-wrapper embed-responsive embed-responsive-4by3">
-                        <img src="img/cat.jpg" class="embed-responsive-item">
+                        <iframe class="embed-responsive-item"
+                                src="//player.bilibili.com/player.html?aid=933661114&bvid=BV1mT4y1o7Q2&cid=428109282&page=1"
+                                allowfullscreen="true" __idm_id__="217901057"></iframe>
                     </div>
                 </div>
 
@@ -188,65 +166,10 @@ Header
 </main>
 
 <!--==========================
-  Footer
+  Footer Inject from components/footer.html
 ============================-->
 <footer id="footer" class="section-bg">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="footer-info">
-                        <h3>CV-XUEBA</h3>
-                    </div>
-                    <div class="footer-links">
-                        <h4>Contact Us</h4>
-                        <p>
-                            <strong>Email:</strong> cv_xueba@163.com<br>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="footer-links">
-                        <h4>在这里找到我们</h4>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <a href="https://space.bilibili.com/592250247"><img src="img/logos/bilibili.png"
-                                                                                    alt="bilibili"></a>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="https://github.com/CV-xueba"><img src="img/logos/github.png" alt="github"></a>
-                            </div>
-                            <div class="col-md-2">
-                                <a href=""><img src="img/logos/qrcode.png" alt="qrcode"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="copyright">
-            &copy;Copyright <strong>CV-XUEBA</strong>&emsp;京ICP备2020042438号&emsp;<img src="img/logos/beian.png"> <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010602007499">京公网安备 11010602007499号</a>
-        </div>
-<!--        <div style="width:300px;margin:0 auto; padding:20px 0;">-->
-<!--            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010602007499" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">京公网安备 11010602007499号</p></a>-->
-<!--        </div>-->
-
-        <div class="credits">
-            <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
-            -->
-            Theme designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-    </div>
 </footer><!-- #footer -->
 
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
@@ -267,9 +190,11 @@ Header
 <script src="https://cdn.bootcdn.net/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 <!-- Contact Form JavaScript File -->
 <script src="https://cdn.bootcdn.net/ajax/libs/bootstrap3-contact-form/1.4.1/js/contact-form.js"></script>
-
 <!-- Template Main Javascript File -->
 <script src="js/main.js"></script>
-
+<script type="text/javascript">
+    $('#footer').load('components/footer.html')
+    $('#header').load('components/header.html')
+</script>
 </body>
 </html>
